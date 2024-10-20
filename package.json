@@ -5,7 +5,8 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist",
+    "browserslist": "last 2 versions, > 0.5% and ie >= 11"
   },
   "author": "Nikola",
   "license": "ISC",
@@ -15,7 +16,7 @@
     "sass": "^1.26.10"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.38.1",
     "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.7"
   }
